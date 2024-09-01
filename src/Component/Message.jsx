@@ -4,7 +4,7 @@ import { io } from "socket.io-client";
 const Message = () => {
   const socket = useMemo(
     () =>
-      io("http://localhost:3000", {
+      io("https://server-csybua532-jaibansal007s-projects.vercel.app", {
         withCredentials: true,
       }),
     []
